@@ -1,0 +1,92 @@
+/* Navigation */
+
+#logo {
+    margin: -33px -24px;
+}
+#navbar{
+    flex-direction: column;
+    height: 59px;
+}
+#navbar ul li a{
+    font-size: 9px;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+
+/* Home sectin */
+
+#home{
+    height: 370px;
+    padding: 3px 28px;
+    padding-top: 40px;
+}
+#home h1{
+    margin-top: -16px;
+}
+#home::before {
+    content: "";
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    background: url(../apple.jpg) no-repeat center center/cover;
+    padding: 28px;
+}
+
+/* #home::before{
+    height: 480px;
+
+} */
+#home p{
+    font-size: 13px;
+}
+/* services section */
+
+#services-container {
+    margin-top: 26px;
+
+}
+
+#services{
+    flex-direction: column;
+
+}
+#services .box{
+    padding: 2px 14px;
+    margin: 5px -6px;
+    margin-bottom: 8px;
+
+}
+
+/* Client section */
+
+
+#client{
+    flex-wrap: wrap;
+}
+#client img{
+    width: 61px;
+    padding: 0px;
+    height: auto;
+}
+
+/* contact us section*/
+#contact-box form{
+    width: 80%;
+}
+
+
+/* footer section */
+
+/* utility classe */
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
